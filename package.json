@@ -9,10 +9,9 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
+    "start": "node server.js", 
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "start": "node server.js",
-    
     "eject": "react-scripts eject"
   }
 }
