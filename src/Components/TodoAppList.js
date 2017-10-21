@@ -70,7 +70,7 @@ export default class TodoAppList extends React.Component{
         return(
                 <div className="container grp">
 
-                    <h1>ToDo App <small>List</small></h1>
+                    <h1>ToDo App <small>List</small>!</h1>
                 <TodoForm updateTask={this.updateTask}  addText={this.addText} CurrentTask={this.state.CurrentTask} />
                 <ul className="list-group">
                    {this.state.Tasks.map( (tasks,index) =>{
